@@ -1,0 +1,30 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: contact_book_development
+  pool:     5
+  username: postgres
+  password: postgres
+  template: template0
+
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: contact_book_development_test
+  pool:     5
+  username: postgres
+  password: postgres
+  template: template0
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: contact_book_production
+  pool:     5
+  username: postgres
+  password: postgres
+  template: template0    
